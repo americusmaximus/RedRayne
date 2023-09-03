@@ -1,6 +1,5 @@
-MIT License
-
-Copyright (c) 2022-2023 Americus Maximus
+/*
+Copyright (c) 2023 Americus Maximus
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +18,20 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+*/
+
+#pragma once
+
+
+#define NOMINMAX
+#define WIN32_LEAN_AND_MEAN
+#include <windows.h>
+
+#define SHOWCURSOR(value)                   \
+    {                                       \
+        auto result = 0;                    \
+        do                                  \
+        {                                   \
+            result = ShowCursor(value);     \
+        } while (result == 0);              \
+    }
