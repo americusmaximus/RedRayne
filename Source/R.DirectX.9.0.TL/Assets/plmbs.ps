@@ -1,0 +1,13 @@
+ps.1.1
+tex t0
+tex t1
+tex t2
+tex t3
+dp3_sat r1.xyz, t0_bx2, v0_bx2
+mul r1.xyz, r1, r1
+mul r1.xyz, r1, r1
+mul r1.xyz, r1, r1
+mul r1.xyz, r1, v0.w
+mul r1.xyz, r1, t3
+mul r0, t2, t3
+mad r0.xyz, r1, t1, r0
