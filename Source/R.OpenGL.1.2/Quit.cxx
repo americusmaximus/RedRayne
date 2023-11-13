@@ -38,7 +38,7 @@ namespace Renderer::Module
 
         va_list args;
         va_start(args, format);
-        vsprintf_s(buffer, MAX_BUFFER_SIZE, format, args);
+        vsnprintf_s(buffer, MAX_BUFFER_SIZE, format, args);
         va_end(args);
 
         MessageBoxA(State.Window.HWND, buffer, RENDERER_MODULE_TITLE_NAME, MB_ICONERROR | MB_OK);
