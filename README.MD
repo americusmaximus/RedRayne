@@ -1,7 +1,7 @@
 # Red Rayne
 ![Red Rayne](./Assets/Logo.800x256.png)
 ## Project
-Red Rayne is a open source implementation of Terminal Reality's [BloodRayne](https://en.wikipedia.org/wiki/BloodRayne_(video_game)) from early 2000s.
+Red Rayne is a open source implementation of Terminal Reality's [BloodRayne](https://en.wikipedia.org/wiki/BloodRayne_(video_game)) from 2002.
 
 ## Goal
 There are multiple goals this project tries to achieve:
