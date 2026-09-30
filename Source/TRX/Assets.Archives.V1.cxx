@@ -74,11 +74,9 @@ namespace Assets::Archives
                     return FALSE;
                 }
 
-                auto file = &self->Files[x];
+                self->Files[x].Name = &self->FileNames[x * ARCHIVE_VOLUME_FILE_NAME_LENGTH];
 
-                file->Name = &self->FileNames[x * ARCHIVE_VOLUME_FILE_NAME_LENGTH];
-
-                strcpy(file->Name, item.Name);
+                strcpy(self->Files[x].Name, item.Name);
 
                 self->Files[x].Size = item.Size;
                 self->Files[x].Offset = item.Offset;

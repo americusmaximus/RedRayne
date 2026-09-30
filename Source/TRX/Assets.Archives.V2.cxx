@@ -71,8 +71,6 @@ namespace Assets::Archives
                     return FALSE;
                 }
 
-                auto file = &self->Files[x];
-
                 self->Files[x].Name = NULL;
                 self->Files[x].Size = item.Size;
                 self->Files[x].Offset = item.Offset;
