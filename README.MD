@@ -33,6 +33,7 @@ The DirectX 9.0 renderer is an upgrade to the DirectX 8.1 renderer. It is an imp
 ## Thanks
 1. [d3d8to9](https://github.com/crosire/d3d8to9) for the insights and the details for the upgrade to DirectX 9.0 above and beyond what Microsoft's article [Converting to Direct3D 9](https://learn.microsoft.com/en-us/windows/win32/direct3d9/converting-to-directx-9) provides.
 2. [GamePressure](https://www.gamepressure.com/download.asp?ID=2151) for the demo version of the game.
+3. [Dolphin Emulator](https://wiki.dolphin-emu.org/index.php?title=BloodRayne) for pointing out that the GameCube version was shipped with debug symbols.
 
 ## Legal
 1. This is not a complete game. Please purchase software you like!
